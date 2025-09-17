@@ -26,7 +26,7 @@ header {
 }
 
 .logo img {
-  width: 30px;
+  width: 70%;
   margin-right: 10px;
 }
 
@@ -75,43 +75,52 @@ nav ul li a:hover {
   margin: 20px 60px;
 }
 
-.hero-text {
-  max-width: 500px;
-}
-
 .hero-text h1 {
-  font-size: 36px;
-  font-weight: 800;
-  margin-bottom: 20px;
+  color: rgba(31, 31, 31, 1);
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 84px;
+  margin-bottom: 8px;
 }
 
 .hero-text p {
-  font-size: 15px;
-  color: #555;
-  margin-bottom: 20px;
-  line-height: 1.6;
+  color: rgba(78, 78, 78, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 8px;
 }
 
 .price {
-  font-size: 24px;
-  font-weight: bold;
-  color: #e91e63;
-  margin-bottom: 20px;
+  color: rgba(255, 19, 111, 1);
+  font-family: Poppins;
+  font-size: 41px;
+  font-weight: 500;
+  line-height: 62px;
+  margin-bottom: 8px;
 }
 
 .btn {
-  display: inline-block;
-  padding: 12px 25px;
-  background: #ff007f;
-  color: white;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background 0.3s ease;
+  width: 168px;
+  height: 52px;
+  border-radius: 6px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 88, 155, 1),
+    rgba(255, 19, 111, 1) 100%
+  );
+  border: none;
 }
 
-.btn:hover {
-  background: #e6006f;
+.btn-text {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  text-decoration: none;
 }
 
 .hero img {
