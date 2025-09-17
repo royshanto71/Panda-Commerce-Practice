@@ -202,25 +202,25 @@ nav ul li a:hover {
   background: linear-gradient(170deg, #4289ff, #3f07f8);
 }
 
-/* Shoes Section */
-.shoes-section {
+/* Shared Section Styles for Shoes and Backpack */
+.section-container {
   padding: 40px 60px;
 }
 
-.section-header {
+.section-container .section-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
 }
 
-.section-header h2 {
+.section-container .section-header h2 {
   color: #1f1f1f;
   font-size: 36px;
   font-weight: 600;
 }
 
-.section-header a {
+.section-container .section-header a {
   color: #ff9d00;
   font-size: 18px;
   font-weight: 500;
@@ -228,17 +228,17 @@ nav ul li a:hover {
   transition: color 0.3s ease;
 }
 
-.section-header a:hover {
+.section-container .section-header a:hover {
   color: #ff136f;
 }
 
-.product-grid {
+.section-container .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 25px;
 }
 
-.product-card {
+.section-container .product-card {
   background: #f9f9f9;
   border-radius: 10px;
   padding: 20px;
@@ -246,39 +246,39 @@ nav ul li a:hover {
   transition: box-shadow 0.3s ease, transform 0.2s ease;
 }
 
-.product-card:hover {
+.section-container .product-card:hover {
   transform: translateY(-5px);
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
 }
 
-.product-card img {
+.section-container .product-card img {
   width: 100%;
   max-width: 300px;
   margin-bottom: 15px;
 }
 
-.product-card h3 {
+.section-container .product-card h3 {
   color: #1f1f1f;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-.product-card p {
+.section-container .product-card p {
   color: #4e4e4e;
   font-family: "Inter", sans-serif;
   font-size: 15px;
   margin-bottom: 15px;
 }
 
-.product-card .price {
+.section-container .product-card .price {
   color: #000;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 15px;
 }
 
-.buy-now-btn {
+.section-container .buy-now-btn {
   display: inline-block;
   padding: 12px 24px;
   border-radius: 6px;
@@ -288,11 +288,11 @@ nav ul li a:hover {
   transition: background 0.3s ease;
 }
 
-.buy-now-btn:hover {
+.section-container .buy-now-btn:hover {
   background: #333;
 }
 
-.buy-now-btn-txt {
+.section-container .buy-now-btn-txt {
   text-decoration: none;
   color: #fff;
   font-family: "Inter", sans-serif;
