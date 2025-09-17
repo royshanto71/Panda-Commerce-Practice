@@ -18,6 +18,7 @@ header {
   padding: 20px 60px;
 }
 
+/* Logo */
 .logo {
   display: flex;
   align-items: center;
@@ -30,22 +31,41 @@ header {
   margin-right: 10px;
 }
 
+/* Search bar */
 .search-bar {
   flex: 1;
   display: flex;
   justify-content: center;
+  position: relative;
+  max-width: 400px;
+  margin: 0 40px;
 }
 
 .search-bar input {
-  width: 60%;
-  padding: 8px 12px;
-  border-radius: 20px;
-  border: 1px solid #ddd;
-  text-align: left;
-  font-size: 14px;
+  width: 100%;
+  padding: 10px 40px 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background: #f3f3f3;
   outline: none;
+  color: rgba(112, 112, 112, 1);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }
 
+.search-bar .icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #aaa;
+  pointer-events: none;
+}
+
+/* Navigation */
 nav ul {
   display: flex;
   list-style: none;
@@ -54,10 +74,11 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
-  font-size: 15px;
+  color: rgba(112, 112, 112, 1);
+  font-family: Poppins;
+  font-size: 16px;
   font-weight: 500;
-  transition: color 0.3s ease;
+  line-height: 24px;
 }
 
 nav ul li a:hover {
