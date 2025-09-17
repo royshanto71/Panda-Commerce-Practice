@@ -148,3 +148,79 @@ nav ul li a:hover {
   max-width: 400px;
   border-radius: 6px;
 }
+
+/* Categories section */
+.categories {
+  border: none;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 40px 60px;
+  width: 1128px;
+  margin: auto;
+}
+
+.categories h2 {
+  color: rgba(31, 31, 31, 1);
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  margin-bottom: 20px;
+}
+
+.category-list {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.category-txt {
+  color: rgba(255, 255, 255, 1);
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 54px;
+}
+
+.category-card {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  width: 359px;
+  height: 120px;
+}
+
+.category-card img {
+  width: 68.21px;
+  height: auto;
+}
+
+/* Gradient backgrounds */
+.watch {
+  background: linear-gradient(
+    151.85deg,
+    rgba(255, 156, 53, 1),
+    rgba(255, 208, 25, 1) 100%
+  );
+}
+
+.bag {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 88, 155, 1),
+    rgba(255, 19, 111, 1) 100%
+  );
+}
+
+.shoes {
+  background: linear-gradient(
+    170.38deg,
+    rgba(66, 137, 255, 1),
+    rgba(63, 7, 248, 1) 100%
+  );
+}
